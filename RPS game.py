@@ -5,7 +5,7 @@ p=random.randint(0,2)
 c=a[p]
 if c=="rock":
     if b==c:
-        print("tie")
+        print("Tie")
     elif (b=="paper"):
         print("you have won")
     else:
@@ -21,6 +21,6 @@ elif(c=="scissor"):
     if b==c:
         print("tie")
     elif(b=="rock"):
-        print("b have won.")
+        print("b-player have won.")
     else:
-        print("computer has won")
+        print("Opponent has won")
