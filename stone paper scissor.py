@@ -1,8 +1,6 @@
 import sys
 u1=input("what is ur name?")
 u2=input("what is ur name?")
-u1_ans=input("%s,what do youwant")
-u2_ans=input("%s,what do youwant")
 def compare(u1,u2):
     if u1==u2:
         return("its tie")
